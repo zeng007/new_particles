@@ -1,6 +1,6 @@
 function Particle(location, color){
   this.location = location.copy();
-  this.velocity = createVector(random(0,0.3),random(0,0.3));
+  this.velocity = createVector(random(0,0.1),random(0,0.1));
   this.acceleration = createVector(0,0);
   this.mass = 1;
 
